@@ -1,0 +1,217 @@
+/* Css reset  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+/* Colors  
+Title: #fb5000
+Background-color: #feb20e
+Find-food: #f17228
+*/
+
+
+/* Header  */
+
+.main-header {
+    max-height: 75px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    justify-content: space-around;
+    margin-bottom: 75px;
+}
+
+.main-title {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.gradient-text {
+    background-color: #FFB30E;;
+    background-image: linear-gradient(45deg, #FFB30E,  #e91e63);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+#logo {
+    height: 75px;
+    background-color: transparent;
+}
+
+#search-food, #login {
+text-decoration: none;
+border: none;
+background-color: #ad5e4521;
+margin: 0 5px;
+font-size: 15px;
+}
+
+#login {
+    cursor: pointer;
+    max-width: 150px;
+    color: #FFB30E;
+}
+
+
+/* Main Section  */
+
+.main-section-title {
+    font-size: 65px;
+    color: white;
+    padding-top: 20px;
+}
+
+.slogan-wrapper {
+    width: 553px;
+}
+
+.promo {
+    font-size: 32.5px;
+    color: #616161;
+}
+
+.find-food-container {
+    background-color: white;
+    height: 150px;
+    margin: 50px 0;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.command-header {
+    border-bottom: 1px solid #9e9e9e85;
+    height: 50%;
+}
+
+.customers-commands {
+    padding: 15px 0;
+}
+
+#client-adress {
+    width: 65%;
+    cursor: auto;
+    text-decoration: none;
+    border: none;
+    background-color:#e0e0e07a;
+}
+
+.find-food {
+    background-color: #f17228;
+    color: white;
+    font-weight: bold;
+    width: 50%;
+}
+
+.main-foto {
+    width: 50%;
+    border-radius: 50%;
+}
+
+/* Generics  */
+body {
+    background-color: #FFB30E;
+}
+
+.container {
+    max-width: 75%;
+    max-height: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.label {
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.find-food .delivery {
+background-color: rgba(241,114,40,0.15);
+color: #f17228;
+}
+
+.delivery {
+    padding: 10px 30px;
+    background-color: rgba(241,114,40,0.15);
+    color: #f17228;
+}
+
+.pickup {
+    color: #616161;
+    border: 0.5px solid #8080801f;
+    
+}
+
+button {
+    cursor: pointer;
+    max-width: 150px;
+    color: #FFB30E;
+    text-decoration: none;
+    border: none;
+    padding: 10px;
+}
+
+.conclusive {
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: #e91e63;
+    margin-top: 20px;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    display: flex;
+    align-items: flex-end;
+}
+/* Utils */
+
+/* Footer  */
+
+footer {
+    background-color: white;
+    height: 350px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+}
+
+.poke {
+    background-image: url('../img/poke.jpg');
+}
+
+.pasta {
+    background-image: url('../img/pasta.jpg');
+}
+
+.fresh {
+    background-image: url('../img/fresh.webp');
+}
+
+.steak {
+    background-image: url('../img/steak.jpeg');
+}
+
+.discount {
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    background-color: #FFB30E;
+    padding: 25px;
+    border-radius: 0 10px;
+}
